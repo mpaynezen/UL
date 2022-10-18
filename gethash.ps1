@@ -10,7 +10,4 @@ $body=@{
 	Serial=$serial
 	Hash=$hsh
 	}
-	Invoke-RestMethod -uri https://hooks.zapier.com/hooks/catch/13601215/b0gqx0d/ -body $body
-
-
-https://raw.githubusercontent.com/
+Invoke-RestMethod -uri https://hooks.zapier.com/hooks/catch/13601215/b0gqx0d/ -body $body
