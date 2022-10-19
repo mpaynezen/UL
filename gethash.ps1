@@ -1,3 +1,4 @@
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Install-Script -Name Get-WindowsAutoPilotInfo -Force
 mkdir c:\ul
